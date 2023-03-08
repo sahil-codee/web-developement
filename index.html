@@ -1,5 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div + h1 {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div><h1 id="myHeader" class="redText">Hello World</h1></div>
+  <div class="redText"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus repellat cum voluptatibus obcaecati dolore quos itaque sequi harum. Voluptatum temporibus obcaecati maxime fugit consequatur itaque suscipit corporis fuga, modi possimus praesentium quam sunt voluptate illo facilis? Non quidem alias provident, quasi nemo maxime impedit facere soluta numquam, assumenda qui debitis?</p></div>
+  </div>
+    <h1 class="myFooter">
+      Lorem ipsum, dolor sit amet.
+    </h1>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="https://formspree.io/f/xgebyjbd" method="POST">
+      <div class="row">
+        <label for="email">Email</label>
+        <input type="email" name="email" />
+      </div>
+
+      <div class="row">
+        <label for="message">Message</label>
+        <textarea name="comments"></textarea>
+      </div>
+
+      <input type="submit" value="Submit" />
+    </form>
+    <label for="favorite_team">Favorite Team:</label>
+
+    <input type="text" name="team" id="favorite_team" list="team_list" />
+
+    <datalist id="team_list">
+      <option>Bangalore Challengers</option>
+
+      <option>Punjab Fighters</option>
+
+      <option>Delhi Devils</option>
+
+      <option>Chennai Kings</option>
+
+      <!-- etc... -->
+    </datalist>
+  </body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,9 +85,18 @@
       </div>
 
       <div class="row">
+        <label>Gender</label>
+        
+        <input type="radio" name="gender" id="male"/>Male
+        <input type="radio" name="gender" id="female" />Female
+      </div>
+
+      <div class="row">
         <label for="message">Message</label>
 
-        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+        <textarea name="message" id="message" cols="30" rows="5">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima accusamus expedita animi labore sed? Id vero adipisci quaerat. Autem earum vitae ducimus fuga! Odio consectetur harum adipisci, sequi voluptas iste natus, eaque, non qui assumenda saepe sint animi pariatur tempore deserunt commodi architecto error molestias officia maxime doloribus corrupti earum!</textarea
+        >
       </div>
 
       <div class="row">
@@ -32,7 +104,7 @@
       </div>
     </form>
   </body>
-</html>
+</html> -->
 <!-- <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -44,7 +116,7 @@
   </head>
   <body>
     <form action="/" method="GET">
-      <table style="border: 1px solid black;">
+      <table >
         <tbody>
           <tr>
             <td><label for="name">Name</label></td>
@@ -62,7 +134,7 @@
             <td><label>Gender</label></td>
             <td>
               <input type="radio" name="gender" id="male" />Male
-              <input type="radio" name="gender" id="male" />Female
+              <input type="radio" name="gender" id="female" />Female
             </td>
           </tr>
           <tr>

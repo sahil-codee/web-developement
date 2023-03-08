@@ -1,0 +1,39 @@
+/* label {
+
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+     width: 100px;
+    
+    } */
+/* form {
+  display: table;
+
+  padding: 10px;
+
+  border: 1px solid black;
+}
+
+form .row {
+  display: table-row;
+}
+#profession,
+label,
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+input[type="tel"],
+textarea,
+input[type="submit"],
+input[type="reset"] {
+  display: table-cell;
+  margin: 2px;
+
+  vertical-align: top;
+}
+
+/* some corrective CSS to fix spacing*/
+
+label {
+  padding: 10px;
+} */

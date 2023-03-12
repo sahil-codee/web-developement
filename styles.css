@@ -1,4 +1,4 @@
-/* label {
+label {
 
     float: left;
     text-align: right;
@@ -6,7 +6,7 @@
      width: 100px;
     
     } */
-/* form {
+form {
   display: table;
 
   padding: 10px;
@@ -32,8 +32,8 @@ input[type="reset"] {
   vertical-align: top;
 }
 
-/* some corrective CSS to fix spacing*/
+/* some corrective CSS to fix spacing
 
 label {
   padding: 10px;
-} */
+}
